@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topicpath{
+	margin:5px 0 10px 0;
+}
+
+
+.topicpath ul li {
+    /* liを横並び＆ブレットを消す */
+    display: inline;
+    list-style-type: none;
+}
+
+.topicpath ul li a {
+    /* aの背景画像に記号の画像を指定 */
+    background-image: url(../crumb.gif);
+
+    /* 右寄せ＆リピート無し */
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+}
+
+.breadcrumb{
+	padding:0 0 10px 0;
+}
+
+
+
+.midashi1{
+	font-style:italic;
+	color:#5b4843;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.midashi2{
+	background-color:#c5b5b2;
+	font-style:italic;
+	font-size:20px;
+	margin:20px 0 10px 0;
+	border-left-style:solid;
+	border-left-width:10px;
+	border-left-color:#5b4843;
+}
+
+.midashi2 p{
+	padding-left:10px;
+}
+
+.item img{
+	text-align:center;
+	padding:0 10px;
+}
+
+.step{
+	font-size:16px;
+	font-weight:bold;
+	color:#5b4843;
+}
+
+.step_text{
+	margin-bottom:10px;
+}

@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* スクリーンサイズ 幅 500px 以上で適用される設定・上から継承したスタイルを上書き */
+@media only screen and (min-width: 500px) {
+#kajiri500{
+	display:block;}
+#kajiri{
+	display:none;}
+}
+@media only screen and (min-width: 700px) {
+
+body{
+	width:790px;
+	}
+#navov700{
+	display:block;}
+#nav{
+	display:none;}
+#logopic{
+	display:none;
+	}
+#logopic700{
+	display:block;
+	}
+#aboutshop{
+	display:none;
+}
+#aboutshopov700{
+	display:block;
+	font-size:16px;
+	line-height:40px;
+}
+#when700{
+	margin-top:21px;
+	}
+
+#slideov500{
+	display:block;
+	width:70%;
+	}
+#slide{
+	display:none;
+	}
+#mainphoto{
+	background-image:none;
+}
+body hgroup h1{
+	float:left;
+	
+}
+body hgroup h1 img{
+	max-width:100%;
+	width:100px;
+	height:px;
+}
+	
+	
+#tel {
+	background-color:#FFCACA;
+	font-size:20px;
+	border-radius:10px;
+	border: solid 1px #000000;
+	float:right;
+	padding-right:5px;
+	margin-top:10px;
+	}
+
+#tel img {
+	padding-left:5px;
+	padding-right:5px;
+	width:16px; 
+	height:17px;
+	margin-bottom:-2px;
+}
+
+
+
+#navov700 li {
+	height:150px;
+	text-align:center;
+	float:left;
+	width:20%;
+	
+	background-repeat: no-repeat;
+	background-position:100%;
+	background-size:100%;
+	
+	}
+#navov700 li:hover{
+	background-repeat: no-repeat;
+	background-position:100%;
+	background-size:100%;
+	
+	}
+#nannka{
+	background-image:url(../images/small/mnavicon/nankaicon2.png);}
+#nannka:hover{
+	background-image:url(../images/small/mnavicon/nankaicon.png);}
+#kai{
+	background-image:url(../images/small/mnavicon/kaiicon2.png);}
+#kai:hover{
+	background-image:url(../images/small/mnavicon/kaiicon.png);}
+#macalon{
+	background-image:url(../images/small/mnavicon/makaronicon2.png);}
+#macalon:hover{
+	background-image:url(../images/small/mnavicon/makaronicon.png);}
+#taruto{
+	background-image:url(../images/small/mnavicon/tarutoicon2.png);}
+#taruto:hover{
+	background-image:url(../images/small/mnavicon/tarutoicon.png);}
+#ekurea{
+	background-image:url(../images/small/mnavicon/ekureaicon2.png);}
+#ekurea:hover{
+	background-image:url(../images/small/mnavicon/ekureaicon.png);}
+	
+	
+	
+body header ul a {
+	line-height:150px;
+	font-size:20px;
+	font-weight:700;
+	color:white;
+}
+	
+	
+#newsimg{
+	height:30px;
+	width:50px}
+#news p{
+	font-size:16px;}
+	
+#main{
+	float:left;
+	width:60%;}
+	
+	
+	
+#sidebar{
+	float:right;
+	display:block;
+	background-color: rgba(255,255,255,0.5);
+	text-align:center;
+	
+	width:35%;
+	border-radius: 10px;
+	
+	}
+
+#sidebar a{
+	display:block;
+	margin:15px;
+	width:90%;
+	background-color:black;
+	}
+
+#sidebar img:hover{
+	background-color:black;
+	opacity:0.7;
+}
+
+
+
+
+
+
+
+}
+
+
+

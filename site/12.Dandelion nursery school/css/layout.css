@@ -1,0 +1,377 @@
+body
+{
+	margin: 0;
+	background-color: #f4e495;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','Meiryo UI',sans-serif;
+}
+
+img
+{
+	border: none;
+}
+
+/* =========== */
+/* コンテナ部分 */
+/* =========== */
+#container
+{
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-left: 1px #eee solid;
+	border-right: 1px #eee solid;
+	background-color: #e3e3e3;
+}
+
+/* =========== */
+/* ヘッダ部分    */
+/* =========== */
+
+/* ヘッダ、フッタ共通 */
+#header,
+#footer
+{
+	width: 960px;
+	height: 120px;
+	background-color: #ff9a00;
+	clear: both;
+}
+
+#header
+{
+	margin: 0 30px 30px 30px;
+}
+
+#header h1
+{
+	display: block;
+	text-indent: -999em;
+	margin:0px;
+}
+
+#header img
+{
+	margin: 30px;
+	float: left;
+}
+
+#header-inner
+{
+	float: right;
+	margin: 0 30px;
+}
+
+#header-inner img
+{
+	margin: 0;
+}
+
+#sub-header
+{
+	margin-left: 45px;
+}
+
+/* =========== */
+/* トップ写真部分    */
+/* =========== */
+
+#picture
+{
+	height: 408px;
+	width: 600px;
+	margin: 0 30px 0 60px;
+	float: left;
+	background-color: #eee;
+}
+
+#picture img
+{
+	border: 10px solid #fff;
+	margin: -10px;
+}
+
+/* =========== */
+/* メニュー部分   */
+/* =========== */
+
+#side
+{
+	height: 408px;
+}
+
+#side  ul
+{
+	list-style-type: none;  
+	margin: 0;  
+	padding: 0;  
+}
+
+#side li
+{
+	float:left;
+	padding: 0;
+}
+
+#side a
+{
+	margin: 5px;
+}
+
+#side a:hover
+{
+	margin: 5px 5px 5px -15px;
+}
+
+#side a
+{
+	display: block;  
+	background-repeat: no-repeat;
+}
+
+
+.main
+{
+	margin: 30px 45px;
+	padding-bottom: 15px;
+	background-color: #fff;
+}
+
+.main h2
+{
+	color: #fff;
+	width: 120px;
+	height: 20px;
+	position: absolute;
+	margin: -15px 30px 10px 15px;
+	text-align:center;
+}
+
+h2.houshin
+{
+	background-image: url(images/h2bg_housin.gif);
+}
+
+h2.gaiyou
+{
+	background-image: url(images/h2bg_gaiyou.gif);
+}
+
+h2.gaiyou_x15
+{
+	width:180px;
+	background-image: url(images/h2bg_gaiyou_x15.gif);
+}
+
+h2.kyushoku_x3
+{
+	width: 330px;
+	background-image: url(images/h2bg_kyushoku_x3.gif);
+}
+
+h2.kyushoku_x15
+{
+	width: 180px;
+	background-image: url(images/h2bg_kyushoku_x15.gif);
+}
+
+h2.gyouji
+{
+	background-image: url(images/h2bg_gyouji.gif);
+}
+
+h2.gyouji_x2
+{
+	width: 240px;
+	background-image: url(images/h2bg_gyouji_x2.gif);
+}
+
+h2.hogosha_x3
+{
+	width: 360px;
+	background-image: url(images/h2bg_hogosha_x3.gif);
+}
+
+h2.hogosha_x5
+{
+	width: 600px;
+	background-image: url(images/h2bg_hogosha_x5.gif);
+}
+
+.main p
+{
+	margin: 0 15px;
+	padding-top: 25px;
+}
+
+.main ul
+{
+	margin: 15px;
+	padding-top: 30px;
+}
+
+.main li p
+{
+	font-size: 0.8em;
+	color: #666;
+	margin: 3px 5px 5px;
+	padding: 0;
+}
+
+.sengen
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+ul.sengen
+{
+	list-style-type: none;
+}
+
+.sengen li span
+{
+	
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 18px;
+}
+
+.main table
+{
+	width: 900px;
+	font-size: 12px;
+	background-color: #fff;
+	text-align: center;
+	margin: 20px;
+	padding-top: 30px;
+	border: 3px #330 solid;
+	border-collapse: collapse;
+}
+
+.main tr.week
+{
+	background-color: #ddd;
+}
+
+.main tr.day
+{
+	background-color: #ffa;
+}
+
+.main td
+{
+	border: 1px #330 solid;
+	width: 143px;
+}
+
+.main td.sunday
+{
+	color: #f11;
+	width: 30px;
+}
+
+.main td.saturday
+{
+	color: #11f;
+}
+
+.main td ul
+{
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 0 0 30px;
+}
+
+.goto_top
+{
+	width: 960px;
+}
+
+.goto_top p
+{
+	text-align: right;
+	margin: 0;
+}
+
+/* =========== */
+/* フッタ部分    */
+/* =========== */
+
+#footer
+{
+	margin: 30px;
+	width: 960px;
+}
+
+#inner-footer
+{
+	height: 120px;
+	width: 960px;
+	margin: 0 auto;
+	background-image: url(images/tanpopo.gif);
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+}
+
+#inner-footer ul
+{
+	list-style-type: none;  
+	margin: 0 auto;
+	width: 960px;
+	height: 120px;
+	padding: 0;  
+}
+
+#inner-footer li
+{
+	text-indent: -9999px;  
+	float:left;  
+	width: 150px;  
+	margin: 30px;  
+	padding: 0;
+}
+
+#inner-footer li:first-child
+{ 
+	margin-left: 45px;  
+}
+
+#inner-footer a
+{
+	display: block;  
+	background-repeat: no-repeat;
+	width: 145px;  
+	height: 36px;
+}
+
+#inner-footer a:hover
+{
+	background-position: 0 -36px;
+}
+
+#access a
+{
+	background-image: url(images/logo_access.gif);  
+}
+
+#ask a
+{
+	background-image: url(images/logo_ask.gif);  
+}
+
+#sitemap a
+{
+	background-image: url(images/logo_sitemap.gif);
+}
+
+#footer #copyright
+{
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	margin-top: 30px;
+}

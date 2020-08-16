@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+@media screen and (max-width:480px){
+  /*ここに480px以下のCSSを記述*/
+  /*top*/
+  #logo {
+    width: 25.51%;
+  }
+
+  #logowrap {
+    padding: 58px 5%;
+  }
+
+  .logotext p {
+    font-size: 1px;
+  }
+
+  .logotext span {
+    font-size: 4px;
+  }
+
+  /**/
+  /*about*/
+  #title {
+    margin: 10px auto 0;
+  }
+
+  .titletext {
+    padding: 0 0 10px 0;
+  }
+
+  #aboutwrap {
+    flex-direction: column;
+  }
+
+  .aboutimg {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .shoptext {
+    width: 100%;
+  }
+
+  .shoptext h3 {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .shoptext p {
+    padding: 10px 0;
+    font-size: 0.75rem;
+  }
+
+  /**/
+  /*menu*/
+  .fbox02 {
+    flex-direction: column;
+  }
+
+  .menulist li {
+    width: 100%;
+  }
+
+  /**/
+  /*eattime*/
+  .eatname {
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    text-align: center;
+  }
+
+  .eattime {
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    text-align: center;
+  }
+
+  .eat01 {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+
+  .eatimg01 {
+    width: 100%;
+  }
+
+  .eattext01 {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+
+  .eat02 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .eatimg02 {
+    width: 100%;
+  }
+
+  .eattext02 {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+  .eat03 {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .eattext03 {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+  .eat04 {
+    width: 100%;
+  }
+
+  .eatimg04 {
+    width: 100%;
+  }
+
+  .eattext04 {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+  /**/
+  /*address*/
+  .add {
+    flex-direction: column;
+  }
+
+  .tablestyle {
+    width: 100%;
+  }
+
+  tbody {
+    font-size: 0.65em
+  }
+
+  .mapstyle {
+    width: 100%;
+  }
+
+  /**/
+  /*sns*/
+  #sns {
+    width: 100%;
+  }
+
+  .icon {
+    width: 40%;
+  }
+
+  /**/
+  /*footer*/
+  footer {
+    width: 100%;
+  }
+
+  .footerwrap {
+    width: 100%;
+  }
+
+  .footersize {
+    width: 100%;
+  }
+
+  .footerlogo {
+    width: 100%;
+  }
+
+  .footertext {
+    width: 100%;
+  }
+}

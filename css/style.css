@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*YUI3 CSS Reset　ブラウザー固有のスタイルをリセットします↓　*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,
+input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+img {
+	border:0;
+}
+
+ul,ol,li {
+	list-style:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Contain floats: h5bp.com/q フロート解除*/
+/*.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }*/
+
+
+
+/*　↓float解除用「clearfix」↓　*/
+.clearfix:after{/*for modern browser*/
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix {zoom:1;/*for IE 5.5-7*/}
+
+
+/*以下、オンマウス時の切り替え*/
+header nav a:hover {
+	color:#b5968a;
+}
+header nav a{
+	color:#666666;
+}
+.h_border {
+	width: 100%;
+	height: 10px;
+	margin-bottom:20px;
+	border-top-style:solid;
+	border-top-width:6px;
+	border-top-color:#000;
+}
+
+#side_menu nav a:hover {
+	color:#b5968a;
+}
+
+#side_menu nav a{
+	color:#666666;
+}
+
+#content section article h2 a{
+	color:#000000;
+}
+
+#content section article h2 a:hover{ 
+	color:#b5968a;
+}
+
+footer nav a:hover {
+	color:#b5968a;
+}
+
+footer nav a{
+	color:#666666;
+}
+/*以上、オンマウスの切り替え*/
+
+/*↓YUI3 CSS Fonts　フォントサイズを相対指定↓　*/
+body {
+	font: 13px/1.231 "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+    *font-size:small;/* IE用 */
+    *font:x-small;/* IE 互換モード用 */
+}
+
+/*　↓HTML5　新要素をブロック化↓　*/
+header, section, footer, aside, nav, article, figure, hgroup { 
+	margin:0;
+	padding:0;
+	display: block;
+}   
+
+/*以下、三河設定*/
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+
+#headwrapper {
+	width:100%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aa9f9b+0,aa9f9b+50,d3c4c0+100 */
+background: #aa9f9b; /* Old browsers */
+background: -moz-linear-gradient(top,  #aa9f9b 0%, #aa9f9b 50%, #d3c4c0 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aa9f9b), color-stop(50%,#aa9f9b), color-stop(100%,#d3c4c0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #aa9f9b 0%,#aa9f9b 50%,#d3c4c0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #aa9f9b 0%,#aa9f9b 50%,#d3c4c0 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #aa9f9b 0%,#aa9f9b 50%,#d3c4c0 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #aa9f9b 0%,#aa9f9b 50%,#d3c4c0 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9f9b', endColorstr='#d3c4c0',GradientType=0 ); /* IE6-9 */
+
+}
+header{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic";
+
+	padding:10px;
+	/*-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px 10px 0 0;*/
+	width:1000px;
+	/**/
+	margin:0 auto;
+}
+
+header #head_fix{
+	width:1000px;
+	margin:0 auto;
+}
+
+.img_left{
+	float:right;
+	clear:both;
+}
+
+/*header h1{
+	font-size:100%;
+	color:#666;
+	text-shadow: -1px -1px 2px rgba(255,255,255,0.5), 1px 1px 2px rgba(0,0,0,0.5);
+}*/
+
+header hgroup{
+	margin: 10px 0 0 0;
+	text-align: left;
+	padding-left:10px;
+	/*text-shadow: 2px 2px 2px #ffffff;*/
+}
+
+/*header h1{
+	text-align:left;
+}*/
+
+header h1{
+	font-size:120%;
+	color:#2E1C1C;
+	/*text-align:center;*/
+}
+
+header h2{
+	font-size:500%;
+	margin-bottom:5px;
+	/*text-align:center;*/
+	font-family: 'Libre Baskerville', serif;
+	text-shadow: 2px 2px 2px #ffffff;
+}
+
+
+
+header nav{
+	height:40px;
+	width:900px;
+	margin:0 auto;
+}
+
+header nav li{
+	float:right;
+}
+
+header nav a {
+	display:block;
+	width:176px;
+	height:36px;
+	font-size:140%;
+	line-height:36px;
+	text-align:center;
+	margin:0 10px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e1c1c+0,492e2d+100 */
+background: #2e1c1c; /* Old browsers */
+background: -moz-linear-gradient(top,  #2e1c1c 0%, #492e2d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e1c1c), color-stop(100%,#492e2d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #2e1c1c 0%,#492e2d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #2e1c1c 0%,#492e2d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #2e1c1c 0%,#492e2d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #2e1c1c 0%,#492e2d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e1c1c', endColorstr='#492e2d',GradientType=0 ); /* IE6-9 */
+
+
+	color:#fff;
+}
+
+
+#slideshow {
+   position: relative;
+   width:  1000px; /* 画像の横幅に合わせて記述 */
+   height: 400px; /* 画像の高さに合わせて記述 */
+}
+#slideshow img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#slideshow img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#slideshow img.last-active {
+   z-index: 9;
+}
+/*メインコンテンツ*/
+#content{
+	float:right;
+	background-color:#ffffff;
+	width:700px;
+	padding:10px;
+	margin-bottom:10px;
+	-moz-box-shadow: 2px 2px 3px #333;
+	-webkit-box-shadow: 2px 2px 3px #333;
+	box-shadow: 2px 2px 3px #333;
+}
+
+#content article{
+	padding:0 10px;
+	line-height:1.6;
+	margin-bottom:20px;
+}
+
+#content article h2{
+	padding:2px 10px;
+	border:solid 1px #ffffff;
+	font-size:123.1%;
+	text-shadow: -1px -1px 2px rgba(255,255,255,0.5), 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+article{
+	width:700px;
+	clear:both;
+}
+
+/*サイドメニュー*/
+#side_menu{
+	float:left;
+	background-color:#ffffff;
+	width:230px;
+	padding:10px;
+	margin-bottom:10px;
+	-moz-box-shadow: 2px 2px 3px #333;
+	-webkit-box-shadow: 2px 2px 3px #333;
+	box-shadow: 2px 2px 3px #333;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#side_menu nav h3{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic";
+	font-size:150%;
+	padding:10px 0;
+	margin-bottom:10px;
+	text-align:center;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e1c1c+0,492e2d+100 */
+background: #2e1c1c; /* Old browsers */
+background: -moz-linear-gradient(top,  #2e1c1c 0%, #492e2d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e1c1c), color-stop(100%,#492e2d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #2e1c1c 0%,#492e2d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #2e1c1c 0%,#492e2d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #2e1c1c 0%,#492e2d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #2e1c1c 0%,#492e2d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e1c1c', endColorstr='#492e2d',GradientType=0 ); /* IE6-9 */
+
+
+	color:#ffffff;
+}
+
+#side_menu nav ul{
+	margin:0 5px 20px;
+}
+
+#side_menu nav li{
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom:dotted 1px #666666;
+}
+
+#side_menu aside img{
+	margin-bottom:10px;
+}
+
+/*フッター*/
+
+#f_wrapper {
+	width:100%;
+	background:#c5b8b2;
+}
+footer{
+	clear:both;
+	background:#c5b8b2;
+	padding:10px;
+	margin-bottom:10px;
+	width:1000px;
+	height:270px;
+	margin:0 auto;
+}
+
+footer #foot_fix{
+	width:1000px;
+	margin:0 auto;
+}
+
+
+footer nav {
+	float: left;
+	width: 200px;
+}
+footer nav ul{
+	padding-left:30px;
+}
+footer nav li{
+	height: 2em;
+	line-height: 2em;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	text-indent: 1.5em;
+	/*border-right:solid 1px #666666;*/
+}
+
+footer nav a{
+	display:block;
+	color:#4D4646;
+}
+
+footer nav a:hover {
+	color:#000;
+	font-weight:bold;
+	background-color:#EBE5E5;
+}
+
+footer .f_cpright{
+	margin-top:130px;
+	width:350px;
+	float:right;
+}
+footer .foot_logo{
+	text-align: right;
+	
+}
+footer .copy{
+	font-size: 93%;
+}

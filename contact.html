@@ -1,0 +1,222 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/common.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>極上の珈琲豆をお届け | Cafe Komforto</title>
+<!-- InstanceEndEditable -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="shortcut icon" href="./image/favicon.ico">
+<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville|Patua+One|Architects+Daughter|Chewy|Archivo+Black' rel='stylesheet' type='text/css'>
+
+<meta name="keywords" content="通販,珈琲,ブレンド,送料無料,マイスター,オリジナル,お試し">
+<meta name="description" content="アドバンス・コーヒー・マイスターが、貴方にとっておきの豆をセレクトします。オリジナルのブレンドも可能です。お試しで貴方独自のブレンドをチョイスしてみませんか">
+
+<!-- InstanceBeginEditable name="head" -->
+
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="shortcut icon" href="./image/favicon.ico">
+<script src="js/jquery-3.5.1.min.js"></script>
+
+<!--バリデート-->
+<script type="text/javascript" src="validate/jquery.validate.min.js"></script>
+<script type="text/javascript" src="validate/localization/messages_ja.min.js"></script>
+<script type="text/javascript">
+$(function(){ 
+    $("form").validate();
+});
+</script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<div id="headwrapper">  
+
+
+	<header>
+        <hgroup>
+        	<a href="index.html"><img src="image/logo06.png" width="184" height="92" alt="" class="img_left"></a>
+          <h1>コーヒーマイスター　が　お勧めするOnlineShop</h1>
+          <h2>Cafe Komforto</h2>
+        </hgroup>
+        <nav>
+          <ul>
+            <li><a href="order_item.php">SHOPPING CART</a></li>
+            <li><a href="guide.html">SHOPPING GUIDE</a></li>
+            <li><a href="index.html">HOME</a></li>
+            </ul>
+		</nav>
+	</header>
+
+	</div><!--headwrapper-->
+	<!-- InstanceBeginEditable name="slider" -->
+    <div class="h_border"></div>
+    <!--/.wideslider-->
+	<!-- InstanceEndEditable -->
+	<div id="wrapper" class="clearfix">              
+  	<div id="content">
+
+	<!-- InstanceBeginEditable name="content" -->
+    
+    
+		<p class="breadcrumb"><a href="index.html">TOP</a>  &gt; お問い合わせ</p>
+
+    	<div>
+   		  <p class="midashi1">　お問い合わせ</p>
+            <form action="index.html" method="post" enctype="text/plain" id="mail">
+              <table width="700" border="0">
+                <tbody>
+                  <tr class="gray_back">
+                    <td width="200">氏名</td>
+                    <td width="500"><input name="yourname" type="text" id="yourname" size="40" maxlength="40" class="required"></td>
+                  </tr>
+                  <tr>
+                    <td>フリガナ</td>
+                    <td><input name="name" type="text" id="name" size="40" maxlength="40" class="required"></td>
+                  </tr>
+                  <tr class="gray_back">
+                    <td>電話番号</td>
+                    <td><input name="tel" type="text" id="tel" size="40" maxlength="40" class="required"></td>
+                  </tr>
+                  <tr>
+                    <td>メールアドレス</td>
+                    <td><input name="email" type="text" id="email" size="40" maxlength="40" class="email required"></td>
+                  </tr>
+                  <tr class="gray_back">
+                    <td>サイトを知ったきっかけ</td>
+                    <td><label>
+                      <input type="checkbox" name="chance" value="search" id="chance_0">
+                      検索サイト</label>
+                      <br>
+                      <label>
+                        <input type="checkbox" name="chance" value="mouth" id="chance_1">
+                        口コミ</label>
+                      <br>
+                      <label>
+                        <input type="checkbox" name="chance" value="magazine" id="chance_2">
+                        雑誌</label>
+                      <br>
+                      <label>
+                        <input type="checkbox" name="chance" value="town" id="chance_3">
+                        地元情報誌</label>
+                      <br>
+                      <label>
+                        <input type="checkbox" name="chance" value="other" id="chance_4">
+                    その他</label></td>
+                  </tr>
+                  <tr>
+                    <td>個人・法人</td>
+                    <td>
+                      <label>
+                        <input type="radio" name="customer" value="general" id="customer_0">
+                        個人</label>
+                      <br>
+                      <label>
+                        <input type="radio" name="customer" value="corporation" id="customer_1">
+                        法人</label>
+                      <br>
+                      <label>
+                        <input type="radio" name="customer" value="other" id="customer_2">
+                        その他</label>
+                      <br>
+                    </td>
+                  </tr>
+                  <tr class="gray_back">
+                    <td>用件</td>
+                    <td><select name="title" id="title" class="required">
+                      <option value="blank">　</option>
+                      <option value="roast">焙煎方法について</option>
+                      <option value="order">大量注文について</option>
+                      <option value="shipping">発送方法について</option>
+                      <option value="site">このサイトについて</option>
+                      <option value="other">その他</option>
+                    </select></td>
+                  </tr>
+                  <tr>
+                    <td>質問内容</td>
+                    <td><textarea name="contact" cols="40" rows="10" id="contact" class="required"></textarea></td>
+                  </tr>
+                  <tr class="gray_back">
+                    <td colspan="2" class="btn"><input type="submit" name="submit" id="submit" value="送信">
+                    <input type="reset" name="reset" id="reset" value="リセット"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <p><br>
+              </p>            
+            </form>            
+   		</div>
+    
+    
+  	<!-- InstanceEndEditable -->
+    </div>
+        
+    <div id="side_menu">
+        <nav>
+            <h3>CATEGORY</h3>
+            <ul>
+                <li>　　<strong>特集</strong></li>
+                <li>　　<a href="favorite.html">　　・美味しい煎れ方</a></li>
+                <li>　　<a href="user.html">　　・ご利用者様の声</a></li>
+                <li>　　<strong>取扱商品</strong></li>
+                <li>　　<a href="brand.html">　　・銘柄で選ぶ</a></li>
+                <li>　　<a href="price.html">　　・価格で選ぶ</a></li>
+                <li>　　<a href="roast.html">　　・焙煎で選ぶ</a></li>
+                <li>　　<strong>お問合せ</strong></li>
+                <li>　　<a href="guide.html">　　・ご利用ガイド</a></li>
+                <li>　　<a href="trading.html">　　・特定商取引</a></li>
+                <li>　　<a href="policy.html">　　・プライバシーポリシー</a></li>
+                <li>　　<a href="order_item.php">　　・ショッピングカート</a></li>
+                <li>　　<a href="contact.html">　　・お問合せフォーム</a></li>
+                <li>　　<a href="infomation.html">　　・店舗情報</a></li>
+            </ul>
+        </nav>
+		<aside> <a href="#"><img src="image/bn01.png" width="230" height="130" alt=""/></a>
+            <a href="guide.html#cost"><img src="image/bn02.png" width="230" height="90" alt=""/></a>
+            <a href="guide.html#rapping"><img src="image/bn03.png" width="230" height="90" alt=""/></a>
+            <a href="contact.html"><img src="image/bn04.png" width="230" height="90" alt=""/></a>
+        </aside>
+    </div>
+ </div>
+	<div id="f_wrapper">  
+    <footer class="clearfix">
+       <nav>
+         <ul>
+           <li><strong>取扱商品</strong></li>
+           <li><a href="brand.html">　・銘柄で選ぶ</a></li>
+           <li><a href="price.html">　・価格で選ぶ</a></li>
+           <li><a href="roast.html">　・焙煎で選ぶ</a></li>
+          </ul>
+        </nav>
+        
+        <nav>
+         <ul>
+           <li><strong>特集</strong></li>
+           <li><a href="favorite.html">　・美味しい淹れ方</a></li>
+           <li><a href="user.html">　・ご利用者様の声</a></li>
+          </ul>
+        </nav>
+        
+        <nav>
+         <ul>
+           <li><strong>お問合せ</strong></li>
+           <li><a href="guide.html">・ご利用ガイド</a></li>
+           <li><a href="trading.html">・特定商取引</a></li>
+           <li><a href="policy.html">・プライバシーポリシー</a></li>
+           <li><a href="order_item.php">・ショッピングカート</a></li>
+           <li><a href="contact.html">・お問合せフォーム</a></li>
+           <li><a href="infomation.html">・店舗情報</a></li>
+          </ul>
+        </nav>
+        <div class="f_cpright">
+           <p class="foot_logo"><a href="index.html"><img src="image/logo06.png" width="184" height="92" alt=""/></a><br/> 
+           <span class="copy">Copyright&copy;2020 Cafe Komforto, All Rights Reserved.</span></p>
+       </div>
+    </footer>
+</div>
+</body>
+
+<!-- InstanceEnd --></html>

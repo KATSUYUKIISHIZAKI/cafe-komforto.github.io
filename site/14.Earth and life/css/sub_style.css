@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+#about li.nav_about, #b_news li.nav_news, #b_works li.nav_works, #works_sub li.nav_works, #access li.nav_access {
+	background-color: #FFF;
+	text-decoration: none;
+}
+#about li.nav_about a, #b_news li.nav_news a, #b_works li.nav_works a, #works_sub li.nav_works a, #access li.nav_access a {
+	color: #535353;
+}
+#pageTitle {
+	position: relative;
+	width: 100%;
+	height: 415px;
+	text-align: center;
+}
+#pageTitle h1 {
+	position: absolute;
+	top: 66px;
+	left: 50%;
+	margin-left: -125px;
+	display: block;
+	width: 250px;
+	height: 175px;
+	color: #f9be00;
+	padding-top: 75px;
+	border: 2px dotted #f9be00;
+}
+#pageTitle h1 em {
+	display: block;
+	font-size: 54px;
+	line-height: 120%;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-style: normal;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.08em;
+}
+#pageTitle h1 span {
+	display: block;
+	font-size: 15px;
+}
+#main {
+	max-width: 80%;
+	margin: 50px auto 80px;
+}
+#b_works #main {
+	max-width: 960px;
+}
+#main .main_contents {
+	font-size: 15px;
+	line-height: 150%;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+#b_news #main .main_contents {
+	border: 1px dotted #535353;
+}
+#main .main_contents h4 {
+	font-size: 30px;
+	line-height: 110%;
+	margin-bottom: 23px;
+}
+.main_contents h4 span {
+	font-size: 15px;
+}
+#main .main_contents img {
+	max-width: 100%;
+	float: left;
+	margin-right: 5%;
+}
+#main .main_contents p {
+	margin-top: 10px;
+	text-align: left;
+	line-height: 200%;
+}
+#main .main_contents .event {
+	margin-bottom: 10px;
+}
+#main .main_contents .event span {
+	font-size: 13px;
+	background-color: #535353;
+	color: #ffffff;
+	width: 90px;
+	height: 20px;
+	text-align: center;
+	line-height: 1em;
+	margin-right: 20px;
+	padding: 5px 20px;
+}
+#main .main_contents .event_wrap {
+	margin-bottom: 30px;
+}
+.btn {
+	clear: both;
+	width: 140px;
+	border: 1px solid #F9be00;
+	display: block;
+	font-size: 1.0em;
+	line-height: 120%;
+	font-weight: 300;
+	letter-spacing: 0.3em;
+	margin: 40px auto 0;
+}
+.btn a {
+	display: block;
+	padding: 10px;
+	color: #F9be00;
+	transition: background-color 0.6s ease 0s, color 0.6s ease 0s, background-image 0.6s ease 0s;
+	text-decoration: none;
+}
+.btn a:hover {
+	display: block;
+	background-color: #F9be00;
+	color: #FFFFFF;
+}
+/*WORKSサブページ*/
+#works_sub #main {
+	max-width: 60%;
+	margin: 50px auto 80px;
+}
+#works_sub #main .main_contents.clearfix p.works_imgbox {
+	text-align: center;
+}
+#works_sub #main .main_contents.clearfix p {
+	margin-bottom: 10px;
+}
+#works_sub #main .main_contents.clearfix p img {
+	margin-bottom: 40px;
+	margin-right:0;
+	max-width: 100%;
+	float:none;
+}
+/*accessサブページ*/
+#access #main {
+	max-width: 60%;
+	margin: 50px auto 80px;
+}
+#gmap {
+	position: relative;
+	padding: 0 0 56%;
+	height: 0;
+	overflow: hidden;
+}
+#infodiv {
+	width: 200px;
+	height: 50px;
+	overflow: hidden;
+}
+.map_title {
+	font-size: 16px;
+	margin: 0;
+}
+#main .main_contents.clearfix form #contact_list {
+	width: 100%;
+	text-align: left;
+}
+#contact_list tr {
+	line-height: 2em;
+}
+#contact_list tr .table_h {
+	background-color: #DCDCDC;
+	line-height: 3em;
+	padding-left: 10px;
+}
+#contact_list tr .table_con {
+	padding: 10px 0 50px 20px;
+}
+.main_contents.clearfix p {
+	margin-bottom: 12px;
+}
+.main_contents.clearfix p span {
+	font-size: 12px;
+	border: 1px solid;
+	padding: 3px;
+	margin-right: 8px;
+}
+#contact_list tr .table_con input[type=text], input[type=tel], input[type=email], select {
+	height: 30px;
+}
+input.btn {
+	font-weight: 900;
+	text-indent: -1.2em;
+	font-size: 18px;
+	display: block;
+	padding: 10px 170px;
+	color: #F9be00;
+	background-color: #FFFFFF;
+	transition: background-color 0.6s ease 0s, color 0.6s ease 0s, background-image 0.6s ease 0s;
+}
+input.btn:hover {
+	display: block;
+	background-color: #F9be00;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+label.error {
+	font-size: 13px;
+	color: #cc0000;
+	padding-left: 10px;
+	margin-top: -10px;
+}
+ @media only screen and (max-width: 768px) {
+#b_works #main {
+	max-width: 100%;
+	padding-left: 0;
+	margin: 0 auto;
+}
+#pageTitle {
+	top: 60px;
+}
+#main .main_contents img {
+	max-width: 90%;
+	float: none;
+}
+#main .main_contents p {
+	line-height: 150%;
+}
+#main .main_contents .event {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#main .main_contents .event_box {
+	margin-top: -5px;
+}
+#works_sub #main {
+	max-width: 75%;
+}
+#access #main {
+	max-width: 75%;
+}
+#contact_list tr {
+	font-size: 17px;
+}
+#gmap {
+	height: 200px;
+}
+ @media only screen and (max-width: 480px) {
+#main .main_contents img {
+ float:none;
+}
+#works_sub #main {
+ max-width:95%;
+}
+#access #main {
+ max-width:95%;
+}
+#main .main_contents.clearfix p {
+ font-size:15px;
+}
+#contact_list tr {
+ font-size:19px;
+ line-height:3em;
+}
+
+#gmap {
+ height:200px;
+}
+
+
+}
+ }

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.midashi1{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:20px;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-left-style:solid;
+	border-left-width:10px;
+	border-color:#2E1C1C;
+	padding:5px 0;
+	margin:5px 0;
+	
+}
+
+.coment{
+	line-height:30px;
+	padding-bottom:10px;
+}
+
+
+table {
+	border-collapse: collapse;
+	margin-bottom:50px;
+}
+
+table tr td {
+	padding: 10px;
+	border-bottom: 1px dotted #999;
+	border-top: 1px dotted #999;
+}
+
+.koumoku{
+	text-align:right;
+}
+
+.btn{
+	text-align:center;
+}
+
+.cart{
+	margin-right:20px;
+}
+
+tbody tr th{
+	text-align:right;
+	padding: 10px;
+}
+
+tbody h2{
+	text-align:left;
+	background-color:#2e1c1c;
+	color:#FFFFFF;
+}
+
+.example{
+	color:#8C8C8C;
+	font-size:12px;
+}
+
+label.error{
+	color:#c00;
+	padding-left:10px;
+}
+
+.cart_table tr th ,.cart_table tr td{
+	text-align:center;
+}
+
+.cart_table .bd_top{
+	border-top: 1px solid #999;
+}
+
+.cart_table .bd_bottom{
+	border-bottom: 1px solid #999;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="西麻布,フレンチ,レストラン,レストランセルドール,上質,個室,french,nishiazabu,素材,ワイン,コース,seldor" />
+  <meta name="description" content="西麻布の路地裏に佇む一軒家のフレンチレストラン。洗練された料理とえりすぐりのワインで上質なひと時をお過ごしください。" >
+  <meta name="abstract" content=">Restaurant Le Sel Dor" >
+  <meta name="robots" content="index,follow" >
+  <meta name="author" content="Restaurant Le Sel Dor  http://www.xxxxxx-seldor.com" >
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <link rel="shortcut-icon" href="img/favicon.ico" alt="tag_logo"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.fullscreenr.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.lightbox-0.5.js"></script>
+
+  <title>Restaurant Le Sel D'or | CONCEPT</title>
+
+  <script>
+// easing
+
+$(document).ready(function() {
+	$("#bgimg").fadeIn(500, "linear");
+});
+
+
+// fullscreenr
+var FullscreenrOptions = {  
+	width: 1600, //元画像の幅
+	height: 768, //元画像の高さ
+	bgID: '#bgimg'
+	}; 
+jQuery.fn.fullscreenr(FullscreenrOptions);
+
+
+// naviボタンのon off
+$(function(){
+	$('a img').hover(function(){
+		$(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+			}, function(){
+			   if (!$(this).hasClass('current')) {
+			   $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+		}
+	});
+});
+  </script>
+</head>
+<body>
+
+  <img src="img/concept.jpg" width="1600" height="768" id="bgimg" />
+  
+  <div id="container">
+  
+  <div id="inner_box">
+  
+  <p class="text"><img src="img/text_concept.png" width="600" height="900" alt="CONCEPT" /></p>
+  
+  <h1 class="over"><a href="top.html"><img src="img/logo.jpg" width="150" height="70" alt="Restaurant Sel D'or" /></a></h1>
+  
+  <div id="footer">
+  
+  <ul class="clearallbtn">
+  <li><a href="#"><img src="img/concept_off.png" width="79" height="17" alt="" /></a></li>
+  <li><a href="chef.html"><img src="img/chef_off.png" width="51" height="17" alt="" /></a></li>
+  <li><a href="menu.html"><img src="img/menu_off.png" width="56" height="17" alt="" /></a></li>
+  <li><a href="information.html"><img src="img/information_off.png" width="116" height="17" alt="" /></a></li>
+  <li><a href="access.html"><img src="img/access_off.png" width="72" height="17" alt="" /></a></li>
+  <li><a href="gallery.html"><img src="img/gallery_off.png" width="82" height="17" alt="" /></a></li>
+  <li><a href="reserve.html"><img src="img/reserve_off.png" width="85" height="17" alt="" /></a></li>
+  </ul>
+  
+  <div id="copyright">
+    <p><small>&copy;2020 Restaurant Le Sel D'or. All Rights Reserved.</small></p>
+    </div><!--/copyright-->
+  
+  </div><!--footer-->
+  
+  </div><!--innerbox-->
+  
+  </div><!--container-->
+    
+  </body>
+  </html>
+
+
+
+
+  

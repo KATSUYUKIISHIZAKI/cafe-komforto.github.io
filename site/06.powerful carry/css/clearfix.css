@@ -1,0 +1,19 @@
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+	}
+
+.clearfix {
+  min-height: 1px;/* IE7用に、最小の高さを記述 */
+	}
+ /* IE6用とそれ以前のバージョンさらに、MacIE4.5用の記述 */
+* html .clearfix { 
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+	}

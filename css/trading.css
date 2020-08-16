@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.midashi1{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:20px;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-left-style:solid;
+	border-left-width:10px;
+	border-color:#2E1C1C;
+	padding:5px 0;
+	margin:5px 0;
+	
+}
+
+.gray_back {
+	background-color:#D7CECA;
+}	

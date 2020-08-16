@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.item_image{/*商品画像の設定*/
+	width:400px;
+	float:left;
+	clear:both;
+}
+
+.item{/*商品画像のマージン*/
+	margin-bottom:10px;
+}
+
+.light{/*右側の価格・値段・商品説明詳細の設定*/
+	width:250px;
+	float:right;
+	margin-right:10px;
+	margin-bottom:50px;
+}
+	
+.light h1{/*右側の商品名装飾*/
+	font-size:150%;
+	margin-bottom:5px;
+}
+
+.light h2{/*右側の商品名が記載されている上下のグレー文字*/
+	font-size:110%;
+	color:#666;
+}
+	
+hr{/*区切り線表示の設定*/
+    border:none;
+    border-top:dashed 1px #000;
+    height:2px;
+    margin:5px 0;
+}
+
+.recommend{
+	width:690px;
+	float:left;
+}
+
+#thumbnail{
+	width:140px;
+	height:180px;
+	float:left;
+	margin-right:15px;
+	text-align:center;
+}
+
+
+.cart a:hover {/*カートに入れるボタンの表示切替*/
+	    background-color: transparent; /* IE6対応 */
+  }
+  
+.cart a:hover img {
+	    visibility: hidden;
+	}

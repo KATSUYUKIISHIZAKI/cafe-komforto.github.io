@@ -1,0 +1,383 @@
+@charset "utf-8";
+/*
+=======================================
+  Reset CSS
+=======================================
+*/
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+  img {
+  vertical-align: bottom;
+  border: none;
+  }
+  
+  
+  ul,ol{
+    list-style-type: none;
+  }
+
+a {
+  color: #59220d;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #d53e04;
+}
+
+a:hover img {
+  opacity: 0.7;
+}
+
+/*
+=========================================
+  Base Layout
+=========================================
+*/
+
+/* wrapper */
+#wrapper {
+	height: 70px;
+	margin: 0px auto;
+	background-color: #FFF4DB;
+	/* [disabled]width: 960px; */
+}
+
+
+header {
+	width: 960px;
+	background-color: #FFF4DB;
+	height: 70px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+#logo {
+	font-family: 'Crimson Text', serif;
+	color: #59220d;
+	font-weight: normal;
+	float: left;
+	margin-left: 10px;
+	/* [disabled]margin-top: 5px; */
+	font-size: 40px;
+	margin-right: 310px;
+}
+
+#logo a {
+	color: #59220d;
+	text-decoration: none;
+}
+
+#gnavi ul li a {
+	font-family: 'Crimson Text', serif;
+	text-decoration: none;
+	color: #59220d;
+	font-weight: bold;
+	float: left;
+	padding-right: 10px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-right: 10px;
+	display: block;
+}
+
+#gnavi ul li a:hover {
+	color: #d53e04;
+}
+
+#gnavi ul .now a {
+	color: #d53e04;
+}
+
+#sns ul li a {
+	float: right;
+	margin-right: 10px;
+	color: #59220d;
+	font-size: 24px;
+	margin-top: 20px;
+	display: block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+footer {
+	background-color: #FFF4DB;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+footer p {
+	font-family: 'Crimson Text', serif;
+	margin: 0px auto;
+	text-align: center;
+}
+#contact h2 {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*
+=========================================
+  Index Layout
+=========================================
+*/
+/* contents */
+#contents {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	/* [disabled]overflow: hidden; */
+}
+#top_img {
+	padding: 20px 0px 0px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+.mt  {
+	font-family: 'Nothing You Could Do', cursive;
+	font-weight: normal;
+	font-size: 30px;
+	color: #59220d;
+	margin-bottom: 10px;
+}
+
+#collection {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 90px;
+}
+
+
+#collection ul li:last-child {
+	margin-right: 0px;
+}
+
+#container {
+	overflow: hidden;
+	margin-right: 70px;
+	margin-bottom: 50px;
+	margin-left: 70px;
+}
+
+#news {
+	/* [disabled]margin-left: 10px; */
+	float: left;
+	/* [disabled]background-color: #FCF; */
+}
+
+#news .news01 {
+	float: left;
+	margin-right: 20px;
+}
+
+#news .news01 .n_img {
+	margin-bottom: 10px;
+}
+
+#news .news01 .kiji {
+	width: 240px;
+	font-size: 12px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+#news .news01 .kiji a {
+	text-decoration: none;
+	color: #59220d;
+}
+
+#access {
+	/* [disabled]background-color: #FC6; */
+	float: right;
+	margin-right: 10px;
+	width: 260px;
+
+}
+
+
+#access #adress {
+	/* [disabled]width: 130px; */
+	font-size: 12px;
+	margin-top: 10px;
+	line-height: 20px;
+	color: #59220d;
+}
+
+ul .season {
+	width: 462px;
+	margin: 80px auto;
+}
+
+/*
+=========================================
+  Collection Layout
+=========================================
+*/
+
+/* col */
+.col {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: normal;
+	padding-top: 10px;
+	width: 250px;
+	text-align: center;
+	font-size: 30px;
+	border-bottom: 2px solid #59220d;
+	padding-bottom: 10px;
+	margin: 20px auto;
+}
+
+
+/* #slider_main
+--------------------------- */
+#slider_main {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+#slider_main ul {
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+#slider_main ul li {
+    display: inline;
+    overflow: hidden;
+}
+ 
+ 
+ 
+/* #slider_thumb
+--------------------------- */
+#slider_thumb {
+	width: 800px;
+	height: 50px;
+	text-align: center;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+#slider_thumb ul {
+    display: inline;
+}
+
+#slider_thumb ul li {
+    cursor: pointer;
+    display: inline;
+}
+
+#slider_thumb ul li.active {
+    filter:alpha(opacity=100)!important;
+    -moz-opacity: 1!important;
+    opacity: 1!important;
+}
+ 
+ 
+/* =======================================
+    ClearFixElements
+======================================= */
+#slider_main ul:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+ 
+#slider_main ul {
+    display: inline-block;
+    overflow: hidden;
+}
+ul h2 .season a:hover {
+		filter:alpha(opacity=80);
+		opacity:0.8;
+}
+
+/*
+=========================================
+  About Layout
+=========================================
+*/
+
+#about {
+	width: 960px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#about #ab_title {
+	margin-left: 69px;
+	margin-bottom: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: normal;
+	font-size: 26px;
+	width: 300px;
+}
+
+#about p {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: justify;
+	width: 340px;
+	/* [disabled]background-color: #999; */
+	float: left;
+	margin-left: 70px;
+}
+
+
+#about_img img {
+	margin-left: 59px;
+	margin-top: -37px;
+}
+
+/*
+=========================================
+  Contact Layout
+=========================================
+*/
+/* form */
+#contact {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#contact form {
+	/* [disabled]background-color: #CFC; */
+	width: 440px;
+	margin: 50px auto;
+}
+
+#contact form h2 {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+
+.form {
+	margin-bottom: 10px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;
+}
+
+.form #send {
+	padding: 2px 5px;
+}

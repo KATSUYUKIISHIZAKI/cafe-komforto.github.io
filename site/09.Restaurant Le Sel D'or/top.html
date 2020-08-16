@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="西麻布,フレンチ,レストラン,レストランセルドール,上質,個室,french,nishiazabu,素材,ワイン,コース,seldor" />
+  <meta name="description" content="西麻布の路地裏に佇む一軒家のフレンチレストラン。洗練された料理とえりすぐりのワインで上質なひと時をお過ごしください。" >
+  <meta name="abstract" content=">Restaurant Le Sel Dor" >
+  <meta name="robots" content="index,follow" >
+  <meta name="author" content="Restaurant Le Sel Dor  http://www.xxxxxx-seldor.com" >
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <link rel="shortcut-icon" href="img/favicon.ico" alt="tag_logo"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.fullscreenr.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.lightbox-0.5.js"></script>
+
+  <title>Restaurant Le Sel D'or | TOP</title>
+
+  <script>
+// easing
+
+$(document).ready(function() {
+	$("#bgimg").fadeIn(500, "linear");
+});
+
+
+// fullscreenr
+var FullscreenrOptions = {  
+	width: 1600, //元画像の幅
+	height: 768, //元画像の高さ
+	bgID: '#bgimg'
+	}; 
+jQuery.fn.fullscreenr(FullscreenrOptions);
+
+
+// naviボタンのon off
+$(function(){
+	$('a img').hover(function(){
+		$(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+			}, function(){
+			   if (!$(this).hasClass('current')) {
+			   $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+		}
+	});
+});
+  </script>
+</head>
+<body>
+
+  <div id="oowaku">
+
+    <img src="img/top.jpg" width="1600" height="768" id="bgimg" />
+    
+    
+    <a href="top.html" class="toplogo"><img src="img/toplogo_off.png" width="248" height="81" alt="" /></a>
+    <div class="top">
+    <a href="concept.html" class="japanese"><img src="img/japanese_off.png" width="70" height="16" alt="" /></a>
+    <a href="concept.html" class="english"><img src="img/english_off.png" width="60" height="16" alt="" /></a>
+    </div>
+    
+    </div>
+
+    
+  </body>
+  </html>
+
+
+
+
+  

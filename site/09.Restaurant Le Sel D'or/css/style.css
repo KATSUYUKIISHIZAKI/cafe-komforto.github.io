@@ -1,0 +1,102 @@
+@charset "utf-8"; 
+
+body {
+	overflow:hidden; 
+	padding:0;margin:0;	
+	height:100%;width:100%;
+}
+
+#bgimg {
+	position:absolute;
+	z-index: -1;
+	left: 239px;
+	top: -158px;
+	display:none;
+}
+
+/*スクロール*/
+
+#container {
+	position:absolute;
+	z-index: 5;				/* Place the new body above the background image */
+	overflow:auto; 			/* restore scrollbars for the content */
+	height:100%;
+	width:100%;	/* Make the new body fill the screen */
+	background: url(../img/spacer.gif) repeat left top;
+	left: 2px;
+	top: 6px;
+}
+
+/*ライトボックス*/
+
+#thumb_box	{
+	width: 650px;
+	position:absolute;top:150px; left:350px;
+
+}
+
+ul#thumb_box li	{
+	width: 118px;
+	float: left;
+	padding: 0 9px 10px 0;
+}
+
+
+/*メニューliの位置と横並び*/ 
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	position:fixed;top:550px; left:700px;
+}
+
+.clearallbtn li{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+/*メニューliここまで*/
+
+/*ロゴの位置*/
+.over{ position:fixed;top:0; left:1100px;}
+
+/*コピーライトの位置*/
+.copyright {
+  position:fixed;
+  color: #fff;
+  top:560px; 
+  left:890px;
+}
+
+
+/*トップページのロゴ*/
+.toplogo{text-align:center;
+    width:100%;
+		position:absolute;
+    top:200px;
+    }
+		
+.top{text-align:center;
+    width:100%;
+		position:absolute;
+    top:320px;
+    }
+
+.japanese{padding:40px;}
+.english{padding:40px;}
+
+
+/*地図表記*/
+.map{position:fixed;top:110px;left:300px;}
+.google{position:fixed;top:350px;left:820px;}
+
+
+/*GalleryとAccessのロゴの位置*/
+.gallery{position:fixed;top:25px;left:30px;}
+.access{position:fixed;top:25px;left:30px;}
+
+
+/*IEのimg罫線を消す*/
+img { border-style:none;}
